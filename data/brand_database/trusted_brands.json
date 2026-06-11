@@ -1,0 +1,35 @@
+{
+    "microsoft": [
+        "microsoft.com",
+        "office.com",
+        "outlook.com",
+        "live.com"
+    ],
+
+    "google": [
+        "google.com",
+        "gmail.com",
+        "youtube.com"
+    ],
+
+    "amazon": [
+        "amazon.com",
+        "amazon.in"
+    ],
+
+    "paypal": [
+        "paypal.com"
+    ],
+
+    "sbi": [
+        "sbi.co.in"
+    ],
+
+    "hdfc": [
+        "hdfcbank.com"
+    ],
+
+    "icici": [
+        "icicibank.com"
+    ]
+}

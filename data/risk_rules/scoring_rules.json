@@ -1,0 +1,12 @@
+{
+    "typosquatting": 40,
+    "brand_impersonation": 20,
+    "spf_fail": 20,
+    "dkim_fail": 20,
+    "dmarc_fail": 20,
+    "new_domain_7_days": 30,
+    "new_domain_30_days": 20,
+    "new_domain_90_days": 10,
+    "ip_url_detected": 15,
+    "credential_request": 25
+}

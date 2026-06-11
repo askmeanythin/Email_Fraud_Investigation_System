@@ -25,6 +25,15 @@ def main():
     print("\n===== HTML BODY =====")
     print(result.html_body)
 
+    print("\n===== URLS =====")
+
+    for url in result.urls:
+        print(url)
+
+    print("\n===== ATTACHMENTS =====")
+
+    for attachment in result.attachments:
+        print(attachment)
 
 if __name__ == "__main__":
     main()
