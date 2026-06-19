@@ -8,5 +8,10 @@
     "new_domain_30_days": 20,
     "new_domain_90_days": 10,
     "ip_url_detected": 15,
-    "credential_request": 25
+    "credential_request": 25,
+    "suspicious_tld": 10,
+    "sender_domain_mismatch": 25,
+    "urgency_detected": 10,
+    "credential_request": 25,
+    "financial_scam": 20
 }

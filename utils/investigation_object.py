@@ -40,6 +40,13 @@ class InvestigationObject:
     spf_analysis: Dict = field(default_factory=dict)
     dkim_analysis: Dict = field(default_factory=dict)
     dmarc_analysis: Dict = field(default_factory=dict)
+    
+    reply_to_analysis: Dict = field(default_factory=dict)
+    return_path_analysis: Dict = field(default_factory=dict)
+    sender_consistency_analysis: Dict = field(default_factory=dict)
+    urgency_analysis: Dict = field(default_factory=dict)
+    credential_request_analysis: Dict = field(default_factory=dict)
+    financial_scam_analysis: Dict = field(default_factory=dict)
 
     # URL Analysis
     url_analysis: Dict = field(default_factory=dict)

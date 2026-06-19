@@ -1,17 +1,199 @@
-From: attacker@micros0ft-support.com
-To: victim@example.com
-Subject: Verify Your Account
-Date: Sat, 12 Aug 2025 10:00:00 +0000
+Original Message
+
+Message ID
+<5D.A7.08833.3F9CE4B1@i-0c3b4d5e6f7a89023.mta1vrest.sd.prd.sparkpost>
+
+Created at:
+Sun, Jun 14, 2026 at 9:18 AM (Delivered after 2 seconds)
+
+From:
+Microsoft account <account-security-noreply@accountprotection.microsoft.com.securemail.io>
+
+To:
+priyanshu20012006@gmail.com
+
+Subject:
+Microsoft account: Verify your recent sign-in
+
+SPF:
+PASS with IP 40.107.92.18
+
+DKIM:
+'PASS' with domain accountprotection.microsoft.com.securemail.io
+
+DMARC:
+'PASS'
+
+
+Delivered-To: priyanshu20012006@gmail.com
+Received: by 2002:ac0:f0d2:0:b0:3f3:ffc1:2597 with SMTP id
+        h18csp112934imm; Sun, 14 Jun 2026 09:18:03 +0530 (IST)
+X-Received: by 2002:a05:690e:1b4b:b0:660:6199:2278 with SMTP id
+        956f58d0204a3-66284c1e743mr2102429d50.0.1781586903000;
+        Sun, 14 Jun 2026 09:18:01 +0530 (IST)
+ARC-Seal: i=1; a=rsa-sha256; t=1781586904; cv=none; d=google.com;
+        s=arc-20240605;
+        b=Qz9X3tWSuyWU7soWd0FlkyFtp3hPcJuKntwp4xBMHpXu90cn9CuXhh8sudigV
+        KMX5hJnIHgYRE73dT7YFUl/ijn3Ll0KCbtweB661FWBuSXbl5YkcTWw1t3PW3Tfp
+        z/xruwJug==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+        s=arc-20240605;
+        h=list-unsubscribe:subject:from:mime-version:date:message-id:to
+        :content-transfer-encoding:dkim-signature;
+        bh=rkS9BKnhWWxGWfBLn7feQdCLrlqosf0qWe9/Zy9AnMU=;
+        b=NWxtZw7MSm8tg1brXeTOEJ/NjzrDLyhk/caZ8xmOTzI5Uaw4y4cqZZxwmDBa0T
+        JyIIeY3RT6IQcCnLAF7HsdJN0oACGu86L6oCCjbXpk4x4UKKltdib86Sj6VjhTU==
+ARC-Authentication-Results: i=1; mx.google.com;
+        dkim=pass header.i=@accountprotection.microsoft.com.securemail.io
+        header.s=selector2-msft header.b=Wk+P03lz;
+        spf=pass (google.com: domain of
+        bounces-4721@mail.accountprotection.microsoft.com.securemail.io
+        designates 40.107.92.18 as permitted sender)
+        smtp.mailfrom=
+        bounces-4721@mail.accountprotection.microsoft.com.securemail.io;
+        dmarc=pass (p=REJECT sp=REJECT dis=NONE)
+        header.from=accountprotection.microsoft.com.securemail.io
+Return-Path:
+        <bounces-4721@mail.accountprotection.microsoft.com.securemail.io>
+Received: from mail-west2.securemail.io
+        (mail-west2.securemail.io. [40.107.92.18])
+        by mx.google.com with ESMTPS id
+        956f58d0204a3-77284d536f6si4905837d50.12.2026.06.14.09.18.00
+        for <priyanshu20012006@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Sun, 14 Jun 2026 09:18:00 +0530 (IST)
+Received-SPF: pass (google.com: domain of
+        bounces-4721@mail.accountprotection.microsoft.com.securemail.io
+        designates 40.107.92.18 as permitted sender)
+        client-ip=40.107.92.18;
+Authentication-Results: mx.google.com;
+        dkim=pass header.i=@accountprotection.microsoft.com.securemail.io;
+        spf=pass
+        smtp.mailfrom=
+        bounces-4721@mail.accountprotection.microsoft.com.securemail.io;
+        dmarc=pass (p=REJECT sp=REJECT dis=NONE)
+        header.from=accountprotection.microsoft.com.securemail.io
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=accountprotection.microsoft.com.securemail.io;
+        s=selector2-msft; t=1781586900;
+        bh=rkS9BKnhWWxGWfBLn7feQdCLrlqosf0qWe9/Zy9AnMU=;
+        h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type;
+        b=Wk+P03lzmTug3Hm5UNBNFAY6gXnm1ksGic2vG2prxS+RWa/6ugFSCjCjshipWM
+        kzhrEa6njSxR6wbY/AJoiTvQue2dBzuXG+7zXX6N/Xn7uvXmWcMWGDB1/HqS1AW
+        FkK8t2Z4RCOcN+2/7iViPwxx3eBL571Ci27M8QdtMaVOk=
+Received: from [10.90.25.231] ([10.90.25.231])
+        by i-0c3b4d5e6f7a89023.mta1vrest.sd.prd.sparkpost
+        (ecelerity 5.2.0.76030) with REST id
+        5D/A7-08833-3F9CE4B1; Sun, 14 Jun 2026 03:48:01 +0000
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset="UTF-8"
+To: priyanshu20012006@gmail.com
+Message-ID:
+        <5D.A7.08833.3F9CE4B1@i-0c3b4d5e6f7a89023.mta1vrest.sd.prd.sparkpost>
+Date: Sun, 14 Jun 2026 03:48:01 +0000
 MIME-Version: 1.0
-Content-Type: text/plain
+From: "Microsoft account"
+        <account-security-noreply@accountprotection.microsoft.com.securemail.io>
+Subject: Microsoft account: Verify your recent sign-in
+List-Unsubscribe:
+        <https://account.microsoft.com.securemail.io/notifications>
+List-Unsubscribe-Post: List-Unsubscribe=One-Click
 
-Dear Customer,
-
-Your Microsoft account has been suspended.
-
-Please verify immediately:
-
-https://micros0ft-support.com/login
-
-Regards,
-Microsoft Security Team
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Microsoft account - Verify your recent sign-in</title>
+</head>
+<body style="font-family:'Segoe UI',Arial,sans-serif;background:#f3f2f1;
+             margin:0;padding:0;">
+  <table width="600" align="center" cellpadding="0" cellspacing="0"
+         style="background:#ffffff;margin:24px auto;border-radius:4px;">
+    <tr>
+      <td style="padding:32px 40px 16px 40px;">
+        <img src="https://aadcdn.msftauth.net/shared/1.0/content/images/
+microsoft_logo_ee5c8d9fb6248c938fd0dc19370e90bd.svg"
+             alt="Microsoft" width="108" height="24"
+             style="display:block;margin-bottom:24px;">
+        <h1 style="font-size:24px;font-weight:600;color:#1b1b1b;
+                   margin:0 0 12px 0;">
+          Microsoft account
+        </h1>
+        <h2 style="font-size:18px;font-weight:400;color:#1b1b1b;
+                   margin:0 0 24px 0;">
+          Verify your recent sign-in
+        </h2>
+        <p style="font-size:14px;color:#333;line-height:1.6;
+                  margin:0 0 16px 0;">
+          Hi Priyanshu,
+        </p>
+        <p style="font-size:14px;color:#333;line-height:1.6;
+                  margin:0 0 16px 0;">
+          We noticed a sign-in to your Microsoft account from a new
+          device. If this was you, no action is needed.
+          If you don't recognize this activity, please review and
+          secure your account.
+        </p>
+        <table cellpadding="12" cellspacing="0" width="100%"
+               style="background:#f3f2f1;border-radius:4px;
+                      margin:0 0 24px 0;">
+          <tr>
+            <td style="font-size:14px;color:#333;">
+              <strong>Country/region:</strong> India
+            </td>
+          </tr>
+          <tr>
+            <td style="font-size:14px;color:#333;">
+              <strong>IP address:</strong> 157.32.xx.xx
+            </td>
+          </tr>
+          <tr>
+            <td style="font-size:14px;color:#333;">
+              <strong>Date:</strong> Jun 14, 2026, 3:48 AM UTC
+            </td>
+          </tr>
+          <tr>
+            <td style="font-size:14px;color:#333;">
+              <strong>Platform:</strong> Windows 11
+            </td>
+          </tr>
+          <tr>
+            <td style="font-size:14px;color:#333;">
+              <strong>Browser:</strong> Chrome
+            </td>
+          </tr>
+        </table>
+        <table cellpadding="0" cellspacing="0">
+          <tr>
+            <td style="background:#0078d4;border-radius:2px;">
+              <a href="https://account.microsoft.com.securemail.io/
+activity?ref=email&src=security_alert&token=eyJhbGciOiJSUzI1NiJ9"
+                 target="_blank"
+                 style="display:inline-block;padding:10px 24px;
+                        font-size:14px;font-weight:600;color:#ffffff;
+                        text-decoration:none;">
+                Review recent activity
+              </a>
+            </td>
+          </tr>
+        </table>
+        <p style="font-size:14px;color:#333;margin:24px 0 8px 0;">
+          Thanks,<br>The Microsoft account team
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="padding:16px 40px;border-top:1px solid #e0e0e0;">
+        <p style="font-size:11px;color:#666;line-height:1.5;margin:0;">
+          Microsoft Corporation, One Microsoft Way, Redmond, WA 98052
+          <br>
+          <a href="https://account.microsoft.com.securemail.io/privacy"
+             target="_blank" style="color:#0078d4;">
+            Privacy Statement
+          </a>
+        </p>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
